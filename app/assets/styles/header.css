@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,900');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+.header {
+    height: 100vh;
+    background-image: url('../imgs/header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.welcome {
+    position: absolute;
+    bottom: 120px;
+    left: 70px;
+
+    font-size: 32px;
+    color: white;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+h2 {
+    font-weight: 400;
+}
